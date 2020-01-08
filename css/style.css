@@ -1,3 +1,4 @@
+/* common */
 html{
   box-sizing: border-box;
 }
@@ -8,65 +9,54 @@ body{
   padding: 0;
 
 }
-.header{
-  z-index: 999;
-  width:100%;
-  background-color: #ffffff;
-}
 .bg{
   width:100%;
-}
-.header-in{
-  margin: auto;
-  height: 70px;
-  position: relative;
 }
 .inner{
   width: 1100px;
   margin: 0 auto;
 }
-header.fixed{
-  position: fixed;
-  text-align: center;
-  margin: 0;
-  width: 100%;
-}
-main{
-  padding-top: 70px;
-}
-.fa-bolt{
-  position: absolute;
-  left:100px;
-  font-size: 24px;
-  margin: 15px 0;
-  color: #c0c0c0;
-  float: left;
-}
 .btn{
   cursor: pointer;
   text-decoration: none;
-}
-.contact{
-  position: absolute;
-  font-size: 12px;
-  right: 50px;
-  margin: 15px 0;
-  padding: 14px 12px;
-  background-color: #74cfae;
-  color: #ffffff;
-  float: left;
-}
-.contact:hover{
-  color: #333;
   transition: 0.3s;
 }
-
 .Raleway{
   font-family: 'Raleway';
 }
+
+/* header */
+.header{
+  background-color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  z-index: 999;
+}
+.head{
+  float: left;
+}
+.fa-bolt{
+  margin-left: 50px;
+  font-size: 45px;
+  color: #c0c0c0;
+}
+.contact{
+  position: absolute;
+  right: 50px;
+  font-size: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  color: #fff;
+}
+.contact:hover{
+  color: #333;
+}
+
+
+/* theme */
 .Theme{
   text-align: center;
-  margin: 250px 0;
+  padding: 250px 0;
 }
 .title{
   font-size: 90px;
@@ -79,28 +69,26 @@ main{
   color: #c0c0c0;
 }
 
+/* what can we do */
 .green{
-  display: flex;
-  align-items: center;
+  padding-top: 50px;
   background-color: #74cfae;
 }
+.green-in{
+
+}
 .iphone{
-  position: relative;
-  left:150px;
-  padding-top: 50px;
   float: left;
+  margin: 0 auto;
 }
-.what{
-  margin-top: 75px;
-}
-.sentence{
+
+.font{
   color: #ffffff;
   text-align: center;
-  max-width: 50%;
-  margin: 0 auto;
-  padding-left: 300px;
   font-family: "lato";
+
 }
+
 .para{
   font-size: 24px;
   font-family: 'Raleway';
@@ -109,13 +97,19 @@ main{
   font-size: 20px;
   margin-top: 35px;
 }
+
+/* latest work */
+.our{
+  padding-bottom: 70px;
+}
 .latest{
-  margin: 60px 40px;
+  padding: 60px 40px;
   text-align: center;
   font-family: 'Raleway';
+  color: #333;
 }
 .latestwork{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
 }
 .images{
   position: relative;
@@ -126,10 +120,10 @@ main{
   font-size: 0;
   box-sizing: border-box;
   float: left;
+  transition: 0.3s;
 }
 .image:hover{
   opacity: 1.0;
-  transition: 0.3s;
 }
 .image:nth-child(3n){ 
   margin-right: 0;
@@ -149,7 +143,7 @@ main{
 }
 .email{
   display: inline-block;
-  margin: 0 70px 90px 0;
+  margin-left: 90px;
   color: #ffffff;
   font-size: 12px;
   padding: 14px 20px;
@@ -157,7 +151,6 @@ main{
 }
 .email:hover{
   color: #333;
-  transition: 0.3s;
 }
 
 
@@ -165,15 +158,17 @@ main{
   background-color: #4e4e4e;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 200px;
+  padding: 70px 0 100px 0;
 }
 .ourskills{
-  padding-top: 70px;
   text-align: center;
+}
+.ourskills_box{
+  margin-top: 50px;
 }
 .skillbox{
   display: inline-block;
-  margin: 50px 180px 100px 0;
+  margin-right: 180px;
 }
 .skillbox:last-child{
   margin-right: 0;
@@ -182,8 +177,10 @@ main{
   margin-bottom: 20px;
 }
 
+
+/* sns */
 .sns{
-  margin-bottom: 200px;
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -200,14 +197,15 @@ main{
   transition: 0.3s;
 }
 
-footer{
+
+/* footer */
+.foot{
   background-color: #74cfae;
-  padding: 20px 0 25px 0;
+  padding: 20px 200px 25px 0;
 }
 .footer{
   color: #ffffff;
   text-align: right;
-  margin-right: 200px;
   font-size: 12px;
 }
 
