@@ -37,7 +37,7 @@ main{
 .fa-bolt{
   position: absolute;
   left:100px;
-  zoom: 1.8;
+  font-size: 24px;
   margin: 15px 0;
   color: #c0c0c0;
   float: left;
