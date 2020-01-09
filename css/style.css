@@ -32,7 +32,7 @@ body {
   transition: 0.3s;
 }
 
-.Raleway {
+.raleway {
   font-family: 'Raleway';
 }
 
@@ -98,7 +98,8 @@ body {
 .right {
   color: #ffffff;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 100px;
+  float: left;
 }
 
 .para {
@@ -108,6 +109,7 @@ body {
 .can {
   font-size: 20px;
   margin-top: 35px;
+  width: 500px;
 }
 
 /* latest work */
@@ -123,6 +125,10 @@ body {
 
 .latestwork {
   text-align: center;
+}
+
+.images{
+  margin-bottom: 90px;
 }
 
 .image {
@@ -143,15 +149,13 @@ body {
 }
 
 .image:nth-last-child(-n+3){
-  margin-bottom: 90px;
+  margin-bottom: 0;
 }
 
 .imgsentense {
   color: #333;
-  font-family: 'Lato', sans-serif;
   display: inline-block;
   width: 600px;
-  font-family: 'Lato', sans-serif;
 }
 
 .email {
