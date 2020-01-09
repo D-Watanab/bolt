@@ -98,8 +98,8 @@ body {
 .right {
   color: #ffffff;
   text-align: center;
-  margin-left: 100px;
-  float: left;
+  margin-right: 100px;
+  float: right;
 }
 
 .para {
@@ -109,7 +109,7 @@ body {
 .can {
   font-size: 20px;
   margin-top: 35px;
-  width: 500px;
+  width: 550px;
 }
 
 /* latest work */
