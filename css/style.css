@@ -297,9 +297,6 @@ body {
   .nav{
     font-size: 0;
   }
-  .nav.inner{
-    width: 100%;
-  }
   .icon{
     width: 25%;
   }
@@ -307,7 +304,6 @@ body {
 }
 
 @media screen and (max-width: 767px){
-
 
   /* header */
 
@@ -341,12 +337,6 @@ body {
 
   .title{
     font-size: 80px;
-  }
-
-  /* what we can do */
-
-  .para{
-    margin-top: 20px;
   }
 
   /* skill */
