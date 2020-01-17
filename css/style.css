@@ -228,10 +228,10 @@ body {
   font-size: 12px;
 }
 
-@media screen and (min-width: 1200px){
 
-}
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (max-width: 1199px){
+    /* common */
+
   .inner{
     width: 97%;
   }
@@ -247,14 +247,13 @@ body {
   .phone{
     float: none;
   }
-
-  .para{
+  .top{
     margin-top: 20px;
   }
 
   .right{
     float: none;
-    width: 97%;
+    width: 100%;
   }
 
   /* our latest work */
@@ -262,24 +261,32 @@ body {
     text-align: center;
   }
   .image{
+    width: 300px;
     float: none;
     margin: auto;
     display: block;
   }
 
   .image:nth-child(3n){
-    margin-bottom: 80px;
+    margin: 0 0 80px 0;
+    display: inline-block;
   }
-
+  .image:last-child{
+    margin-bottom: 0;
+  }
 
   /* our skills */
   .skillbox{
     margin: 0 0 40px 0;
     display: block;
   }
+  
+  .skillbox:last-child{
+    margin-bottom: 0;
+  }
   /* email */
   .imgsentense{
-    width: 97%;
+    width: 100%;
   }
 
   .email{
@@ -287,17 +294,20 @@ body {
   }
 
   /* nav */
+  .nav{
+    font-size: 0;
+  }
   .nav.inner{
     width: 100%;
+  }
+  .icon{
+    width: 25%;
   }
 
 }
 
 @media screen and (max-width: 767px){
-  /* common */
-  .inner{
-    width: 97%;
-  }
+
 
   /* header */
 
@@ -335,48 +345,10 @@ body {
 
   /* what we can do */
 
-  .green{
-    padding-bottom: 40px;
-  }
-
-  .green-in{
-    text-align: center;
-  }
-  .phone{
-    float: none;
-  }
-
   .para{
     margin-top: 20px;
   }
 
-  .right{
-    float: none;
-    width: 97%;
-  }
-
-  /* our latest work */
-
-  .images{
-    text-align: center;
-  }
-  .image{
-    float: none;
-    margin: auto;
-    display: block;
-  }
-
-  .image:nth-child(3n){
-    margin-bottom: 80px;
-  }
-
-  .imgsentense{
-    width: 97%;
-  }
-
-  .email{
-    margin:40px 0 0 0;
-  }
   /* skill */
 
   .skillbox{
