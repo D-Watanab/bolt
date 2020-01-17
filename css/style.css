@@ -1,9 +1,5 @@
 /* common */
 
-html {
-  box-sizing: border-box;
-}
-
 body {
   background-color: #f2f2f2;
   font-family: 'Lato';
@@ -98,8 +94,8 @@ body {
 .right {
   color: #ffffff;
   text-align: center;
-  margin-right: 100px;
   float: right;
+  width: 650px;
 }
 
 .para {
@@ -109,7 +105,6 @@ body {
 .can {
   font-size: 20px;
   margin-top: 35px;
-  width: 550px;
 }
 
 /* latest work */
@@ -155,7 +150,7 @@ body {
 .imgsentense {
   color: #333;
   display: inline-block;
-  width: 600px;
+  width: 50%;
 }
 
 .email {
@@ -233,3 +228,168 @@ body {
   font-size: 12px;
 }
 
+@media screen and (min-width: 1200px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .inner{
+    width: 97%;
+  }
+
+  /* what we can do */
+
+  .green{
+    padding-bottom: 40px;
+  }
+  .green-in{
+    text-align: center;
+  }
+  .phone{
+    float: none;
+  }
+
+  .para{
+    margin-top: 20px;
+  }
+
+  .right{
+    float: none;
+    width: 97%;
+  }
+
+  /* our latest work */
+  .images{
+    text-align: center;
+  }
+  .image{
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  .image:nth-child(3n){
+    margin-bottom: 80px;
+  }
+
+
+  /* our skills */
+  .skillbox{
+    margin: 0 0 40px 0;
+    display: block;
+  }
+  /* email */
+  .imgsentense{
+    width: 97%;
+  }
+
+  .email{
+    margin:40px 0 0 0;
+  }
+
+  /* nav */
+  .nav.inner{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  /* common */
+  .inner{
+    width: 97%;
+  }
+
+  /* header */
+
+  .contact{
+    display: none;
+  }
+
+  .hambuger {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: auto;
+    float: right;
+  }
+
+  .hambuger_in{
+    width: 20px;
+    height: 2px;
+    background-color: #ddd;
+    margin-top: 3px;
+  }
+
+      /* theme */
+  .hambuger_in:first-child{
+    margin-top: 0;
+  }
+
+  .theme{
+    padding: 160px 0 130px 0;
+  }
+
+  .title{
+    font-size: 80px;
+  }
+
+  /* what we can do */
+
+  .green{
+    padding-bottom: 40px;
+  }
+
+  .green-in{
+    text-align: center;
+  }
+  .phone{
+    float: none;
+  }
+
+  .para{
+    margin-top: 20px;
+  }
+
+  .right{
+    float: none;
+    width: 97%;
+  }
+
+  /* our latest work */
+
+  .images{
+    text-align: center;
+  }
+  .image{
+    float: none;
+    margin: auto;
+    display: block;
+  }
+
+  .image:nth-child(3n){
+    margin-bottom: 80px;
+  }
+
+  .imgsentense{
+    width: 97%;
+  }
+
+  .email{
+    margin:40px 0 0 0;
+  }
+  /* skill */
+
+  .skillbox{
+    margin: 0 0 40px 0;
+    display: block;
+  }
+
+  /* sns icon */
+  .sns{
+    padding: 50px  0;
+  }
+  .icon{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
